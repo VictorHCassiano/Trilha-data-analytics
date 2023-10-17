@@ -1,7 +1,4 @@
 # Trilha D&A - AWS [Compass.uol](https://compass.uol/pt/home/)
-
-Descrição breve do projeto.
-
 ## Apresentação
 
 - **Nome**: Victor Hugo Cassiano da Silva
