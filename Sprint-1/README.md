@@ -1,5 +1,5 @@
-## Sprint-1: Git/Github/Linux 
-Ferramentas de versionamento de código são essenciais para o sucesso de projetos que envolvem código. Atualmente o Git é padrão de mercado, sendo amplamente utilizado em projetos de dados. Não menos importantes são os sistemas operacionais baseados em Linux, cujo conhecimento dos princípios básicos de operação e comandos de terminal mais comuns são necessários a qualquer profissional da área de Data & Analytics.
+## Sprint-1: Git/Github/Linux
+Git/Github: Comandos basicos, git add, init, commit, pull,push desfazer commits, como fazer um repositorio, 
 
 - [Exercício 1](https://github.com/VictorHCassiano/Trilha-data-analytics/blob/main/Sprint-1/exercicios/ex1.md)
 - [Exercício 2](https://github.com/VictorHCassiano/Trilha-data-analytics/blob/main/Sprint-1/exercicios/ex2.md)
