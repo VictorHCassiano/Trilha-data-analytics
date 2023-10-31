@@ -21,7 +21,7 @@ professional_status,
 (professional_status = 'clt') as profissional_clt
 from sales.customers
 `
-#Exercicio 3
+# Exercicio 3
 ## Operadores Logicos
 `select * from sales.products
 where price between 100000 and 200000
