@@ -55,7 +55,7 @@ Linux:
 - **Otimização de Consultas:**
   - Aprendemos estratégias para otimizar consultas SQL, visando melhor desempenho na recuperação e manipulação de grandes conjuntos de dados.
 
-### Conclusão do Sprint 3: Python - Estruturas Avançadas e Desenvolvimento de Aplicações
+### Sprint 3: Python - Estruturas Avançadas e Desenvolvimento de Aplicações
 
 Durante o terceiro sprint, exploramos aprofundadamente conceitos avançados em Python, abrangendo uma variedade de tópicos essenciais para o desenvolvimento de aplicações robustas. Desde estruturas de controle até o isolamento eficiente de ambientes, cada área foi minuciosamente abordada para ampliar nossa proficiência na linguagem.
 
@@ -79,4 +79,21 @@ Durante o terceiro sprint, exploramos aprofundadamente conceitos avançados em P
 
     - Aprendemos a importância do gerenciamento de pacotes e exploramos técnicas avançadas para garantir o isolamento eficiente de ambientes usando ferramentas como virtualenv. Isso é crucial para o desenvolvimento de aplicações escaláveis e de fácil manutenção.
 
-### Sprint 4,5,6
+### Sprint 4: Programação Funcional em Python, Docker Avançado com Docker Swarm e Kubernetes, e Estatística Descritiva em Python
+
+Durante o quarto sprint, mergulhamos em tópicos avançados que ampliaram significativamente nossa base de conhecimento em Python, com ênfase na programação funcional, na orquestração de contêineres com Docker Swarm e Kubernetes, e na aplicação de estatística descritiva em nossos projetos.
+
+- **Programação Funcional em Python**:
+
+    - Exploramos os princípios da programação funcional em Python, destacando conceitos como funções de ordem superior, expressões lambda, e map/reduce/filter. Essa abordagem nos permitiu escrever código mais conciso, modular e aproveitar os benefícios da imutabilidade.
+
+- **Docker Avançado com Docker Swarm e Kubernetes**:
+
+    - Aprofundamos nosso entendimento sobre contêineres, estendendo-o para abranger ambientes mais complexos. Investigamos as capacidades do Docker Swarm para orquestrar múltiplos contêineres, proporcionando escalabilidade e tolerância a falhas. Além disso, adentramos o universo do Kubernetes, explorando sua arquitetura, recursos avançados e a orquestração eficaz de aplicações em larga escala.
+
+- **Estatística Descritiva em Python**:
+
+    - Aplicamos conceitos estatísticos descritivos utilizando Python, aprimorando nossa capacidade de analisar e interpretar dados. Exploramos medidas de tendência central, dispersão e visualização de dados, proporcionando uma base sólida para a tomada de decisões informadas em nossos projetos.
+
+
+### Sprint 5,6,7
