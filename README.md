@@ -96,4 +96,67 @@ Durante o quarto sprint, mergulhamos em tópicos avançados que ampliaram signif
     - Aplicamos conceitos estatísticos descritivos utilizando Python, aprimorando nossa capacidade de analisar e interpretar dados. Exploramos medidas de tendência central, dispersão e visualização de dados, proporcionando uma base sólida para a tomada de decisões informadas em nossos projetos.
 
 
-### Sprint 5,6,7
+
+### Sprint 5: AWS - Certificações e Treinamentos
+
+Durante a quinta sprint, concentramos nossos esforços em aprimorar nossos conhecimentos na plataforma AWS (Amazon Web Services), obtendo certificações e participando de treinamentos especializados.
+
+- **AWS Partner Accreditation Technical Portuguese.pdf**:
+    - Certificação técnica de parceiro AWS em português, aprimorando nosso entendimento das soluções técnicas oferecidas pela AWS.
+
+- **AWS Partner Acreditação de economias na nuvem AWS – treinamento de vendas.pdf**:
+    - Treinamento de vendas com foco nas economias proporcionadas pelas soluções em nuvem da AWS, fortalecendo nossas habilidades na apresentação e venda de serviços AWS.
+
+- **AWS Partner Sales Accreditation (Business).pdf**:
+    - Certificação de vendas para parceiros AWS, aprofundando nosso conhecimento nas estratégias de vendas relacionadas aos serviços de negócios da AWS.
+
+- **Cloud quest certificado.png**:
+    - Certificado Cloud Quest, evidenciando nossa participação e sucesso em desafios relacionados à nuvem.
+
+- **Exam Prep AWS Certified Cloud Practitioner (Portuguese).pdf**:
+    - Preparação para o exame AWS Certified Cloud Practitioner em português, consolidando nosso entendimento dos conceitos fundamentais da AWS.
+
+
+### Sprint 6: AWS - Data Analytics e Best Practices
+
+Durante a sexta sprint, aprofundamos nossos conhecimentos na área de Data Analytics na AWS (Amazon Web Services), explorando cursos especializados e adotando as melhores práticas para otimizar nossas estratégias de análise de dados.
+
+- **AWS Partner Data Analytics on AWS (Business).pdf**:
+  - Curso de Análise de Dados na AWS para Parceiros, focado em aspectos de negócios, fortalecendo nossa capacidade de oferecer soluções analíticas para clientes.
+
+- **Best Practices for Data Warehousing with Amazon Redshift (Portuguese).pdf**:
+  - Curso em português sobre as melhores práticas para Armazenamento de Dados com o Amazon Redshift, aprimorando nossa habilidade na construção e otimização de data warehouses.
+
+- **Data Analytics Fundamentals (portuguese).pdf**:
+  - Fundamentos da Análise de Dados em português, proporcionando uma base sólida para aplicação prática em projetos de análise na AWS.
+
+- **Deep Dive into Concepts and Tools for Analyzing Streaming Data (Portuguese).pdf**:
+  - Curso aprofundado em português sobre conceitos e ferramentas para análise de dados em tempo real, preparando-nos para lidar eficientemente com fluxos contínuos de dados.
+
+- **Getting Started with Amazon Redshift.pdf**:
+  - Guia de iniciação ao Amazon Redshift, oferecendo uma visão prática e hands-on para começar a trabalhar com este serviço de armazenamento de dados.
+
+- **Introduction to AWS IoT Analytics.pdf**:
+  - Introdução à Análise de Dados na Internet das Coisas (IoT) na AWS, ampliando nosso conhecimento sobre análise de dados em ambientes IoT.
+
+- **Introduction to Amazon Athena (Portuguese).pdf**:
+  - Curso em português apresentando o Amazon Athena, aprimorando nossa habilidade na execução de consultas SQL em dados armazenados no Amazon S3.
+
+- **Introduction to Amazon Elastic MapReduce (EMR) (Portuguese).pdf**:
+  - Introdução ao Amazon Elastic MapReduce (EMR) em português, abordando conceitos e práticas para processamento distribuído de grandes conjuntos de dados.
+
+- **Introduction to Amazon Kinesis Analytics.pdf**:
+  - Curso introdutório sobre o Amazon Kinesis Analytics, fornecendo uma compreensão detalhada das capacidades analíticas deste serviço de streaming.
+
+- **Introduction to Amazon Kinesis Streams.pdf**:
+  - Introdução ao Amazon Kinesis Streams, explorando os conceitos por trás do processamento de streaming e suas aplicações práticas.
+
+- **Introduction to Amazon Quicksight (Portuguese).pdf**:
+  - Curso em português apresentando o Amazon Quicksight, aprimorando nossa capacidade de criar visualizações de dados interativas e informativas.
+
+- **Serverless Analytics (Portuguese).pdf**:
+  - Curso em português sobre análise de dados sem servidor, explorando abordagens e práticas inovadoras na execução de análises na nuvem.
+
+- **Why Analytics for Games (Portuguese).pdf**:
+  - Curso em português abordando a importância e as estratégias de análise de dados em jogos, alinhando-se aos nossos interesses pessoais e profissionais.
+
