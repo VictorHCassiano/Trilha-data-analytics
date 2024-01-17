@@ -1,0 +1,9 @@
+FROM jupyter/pyspark-notebook
+
+WORKDIR /usr/src/app
+
+COPY . .
+
+
+
+CMD ["pyspark"]
