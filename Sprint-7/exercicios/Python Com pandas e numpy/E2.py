@@ -1,6 +1,3 @@
-#Apresente a média da coluna contendo o número de filmes.
-
-
 import pandas as pd
 import numpy as np
 

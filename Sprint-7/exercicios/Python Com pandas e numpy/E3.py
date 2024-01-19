@@ -1,7 +1,6 @@
 import pandas as pd
 import numpy as np
 
-# Lendo o arquivo CSV
 df = pd.read_csv('actors.csv')
 
 MaiorAvgPorFilme = np.argmax(df['Average per Movie'])
