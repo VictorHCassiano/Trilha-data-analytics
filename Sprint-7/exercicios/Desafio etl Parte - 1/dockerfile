@@ -1,0 +1,23 @@
+
+FROM python:3.10
+
+
+WORKDIR /app
+
+ADD . /app
+
+
+RUN pip install --no-cache-dir -r requirements.txt
+
+
+VOLUME /data
+
+
+EXPOSE 80
+
+
+CMD ["python", "etl.py"]
+
+#comandos docker utilizados
+# docker build -t etl .
+# docker run -p 80:80 -v /c/Users/hugoc/Desktop/Code/Trilha-data-analytics/Sprint-7/exercicios/Desafio_etl_Parte_1/arquivos:/data etl
