@@ -160,3 +160,21 @@ Durante a sexta sprint, aprofundamos nossos conhecimentos na área de Data Analy
 - **Why Analytics for Games (Portuguese).pdf**:
   - Curso em português abordando a importância e as estratégias de análise de dados em jogos, alinhando-se aos nossos interesses pessoais e profissionais.
 
+### Sprint 7: Hadoop, PySpark e Desafio - Parte 1
+
+Durante a sétima sprint, focamos em consolidar nossos conhecimentos em Big Data, com ênfase no Hadoop e PySpark. Iniciamos a primeira parte do desafio, que consiste em transferir os arquivos "movies" e "series" para a nuvem, utilizando o serviço S3 da AWS.
+
+- **Curso Básico de Hadoop**:
+  - Exploração dos fundamentos do Hadoop, incluindo conceitos-chave como HDFS (Hadoop Distributed File System) e processamento distribuído. Este curso proporcionou uma compreensão sólida dos princípios essenciais do ecossistema Hadoop.
+
+- **Curso Completo para PySpark**:
+  - Imersão profunda no PySpark, abrangendo desde os conceitos básicos até técnicas avançadas. Este curso fortaleceu nossa capacidade de utilizar o PySpark para processamento de dados em ambientes distribuídos.
+
+- **Desafio - Parte 1**:
+
+    - **Objetivo**: Transferir os arquivos "movies" e "series" para o serviço S3 da AWS.
+
+    - **Descrição do Desafio**:
+        - Utilizar o a biblioteca boto3 para enviar os arquivos para a nuvem onde deveria ser armazenado em um S3 , organizando os dados da seguinte forma, /Raw/Local/CSV/ano/mes/dia/
+
+  
