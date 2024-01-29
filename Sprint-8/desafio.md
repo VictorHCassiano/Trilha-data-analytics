@@ -1,5 +1,14 @@
 # Desafio parte 2
-## Analise dos filmes de Avatar
+## Análise dos filmes de Avatar
 ### Objetivo:
-gerar insights sobre os filmes obtendo avaliações e popularidade, evolução ao longo do tempo, cálculo do lucro, receita versus orçamento, prêmios e indicações e projecao dos filmes futuros de avatar
+Analisar dados dos filmes de Avatar usando a API:
 
+1. **collection/{collection_id}**: Obter informações sobre a coleção de filmes para agrupá-los.
+
+2. **movie/{movie_id}**: Explorar detalhes específicos de cada filme de Avatar, como elenco, orçamento, bilheteria e recepção crítica.
+
+3. **movie/{movie_id}/similar**: Identificar filmes similares para comparação com o sucesso de Avatar.
+
+4. **movie/{movie_id}/recommendations**: Ver recomendações para análise comparativa com os filmes de Avatar.
+
+Com base nos dados coletados, o objetivo final é projetar a bilheteria de futuros filmes de Avatar que ainda não foram lançados, mas possuem informações como data de lançamento e orçamento.
