@@ -11,4 +11,6 @@ Analisar dados dos filmes de Avatar usando a API:
 
 4. **movie/{movie_id}/recommendations**: Ver recomendações para análise comparativa com os filmes de Avatar.
 
+5. **discover/movie**: conseguir dados dos 100 melhores filmes de drama para comparação
+
 Com base nos dados coletados, o objetivo final é projetar a bilheteria de futuros filmes de Avatar que ainda não foram lançados, mas possuem informações como data de lançamento e orçamento.
