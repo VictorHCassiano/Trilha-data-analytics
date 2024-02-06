@@ -177,4 +177,11 @@ Durante a sétima sprint, focamos em consolidar nossos conhecimentos em Big Data
     - **Descrição do Desafio**:
         - Utilizar o a biblioteca boto3 para enviar os arquivos para a nuvem onde deveria ser armazenado em um S3 , organizando os dados da seguinte forma, /Raw/Local/CSV/ano/mes/dia/
 
+### Sprint 8: Desafio - Parte 2
+- **Desafio - Parte 2**:
+
+    - **Objetivo**: Ingestão de dados do TMBD 
+
+    - **Descrição do Desafio**:
+        - Compreende a captura de dados existentes na API TMBD. Os dados coletados devem ser persistidos em Amazon S3 RAW Zone, mantendo o formato da origem (JSON), agrupando-os em arquivos 
   
