@@ -1,12 +1,15 @@
+
 import requests
 import json
 import boto3
 import os
 from datetime import datetime
-from aws_credenciais import AWS_ACCESS_KEY_ID,AWS_SECRET_ACCESS_KEY,AWS_SESSION_TOKEN
-from tmdb_credenciais import chave_api
+
+AWS_ACCESS_KEY_ID="ASIAQOP23LSGWLR5ZOHD"
+AWS_SECRET_ACCESS_KEY="bYhfqbY+sR/fOimOuxp9F9NUg4sCxk7O521e7KwX"
+AWS_SESSION_TOKEN="IQoJb3JpZ2luX2VjEIT//////////wEaCXVzLWVhc3QtMSJGMEQCIExj6bn9UPeCnTYb5H9b/RfyPp7jGtIElzz+LCurNiR7AiBxGWPznJZQvbNC/dnxvlhcUPGkwPEWWWFfnSijWRWIGiqjAwhNEAAaDDAzMTEyNzcyMzE0OSIM50G5TFXemBRu6EM3KoADyVuI20iJfxFu6dGNRgxHag3xFctit7i99dU7uFmOw0Z1X9c4BeQR7NBtZcuqnlZja7m6Wxhq71UX2cAVQxSVqL3H2uioa9FnW8TDpk36eCwUdnw0qMWh8ppJIxpDbOyMusu9POfQX7iKNetPp7ymFPQteX/x+zl2b/tqz8BO79gi8Dc5VubPrNETU9zTQ9WK+YAYTBwV95YoPSEBkao2y9EioVCUO/T2k5TtgLPcmdC6ZqGlkfiFgxQnu3wCkk26+x78o0tlgB9rV08qspekVY5pN4f2dw6hjfwOLkV8FS19ULBhD+YrHDsLpHut4T4/3Vew7BCyatKSHJ+Jb0Z0DYhVDFNA+6xlxCswk8pOJgTPg7gnbVz9RBsEfW9pYpkMd6mH5NrHIcYM2OaTNWuKSbLyPIzGfgKLvBy20zqWlihtvlv2KzWcDwdpllq+wqlxIXDpDwvEXkvdyi7VrNHhDDrLfDGb2S95+rLBDSy9kSvgp08Op/W9rW9+TOUhbe4aMNbs760GOqcBDFXwy9OYbKl/+NDybI2dulEue0xyatpbmgppWFQ8IAMdByrNAOpK6cJaUag228qSwWvp0yXc5wQkHJL47YWpEvObBiFKZ2liodcBuwDw/c4bWSXzbZLPIYGpg3oK3G/81F3CgbKYunACrDZD35hoh1jUS/6Kd+v60fGaEypytPHdTZt04jij84e9ybjDpF5yaCTWJMtA0ZoyU7A+u2gzenz5/90Oauo="
 def lambda_handler(event, context):
-    
+    chave_api = "150eb015d61e7f55617a13a1cc4a9aea"
     id_colecao = "87096"  
 
     resposta_colecao = requests.get(f"https://api.themoviedb.org/3/collection/{id_colecao}?api_key={chave_api}")
@@ -17,10 +20,16 @@ def lambda_handler(event, context):
 
     id_drama = 18
     for pagina in range(1, 6):  
-        resposta_filmes = requests.get(f"https://api.themoviedb.org/3/discover/movie?api_key={chave_api}&with_genres={id_drama}&sort_by=vote_average.desc&page={pagina}")
+        resposta_filmes = requests.get(f"https://api.themoviedb.org/3/discover/movie?api_key={chave_api}&with_genres={id_drama}&page={pagina}")
         filmes = resposta_filmes.json()
         for filme in filmes['results']:
+            id_filme = filme['id']
+            resposta_filme = requests.get(f"https://api.themoviedb.org/3/movie/{id_filme}?api_key={chave_api}")
+            dados_filme = resposta_filme.json()
+            filme['budget'] = dados_filme['budget']
+            filme['revenue'] = dados_filme['revenue']
             todos_dados_filme.append(filme)
+  
 
     for filme in dados_colecao['parts']:
         id_filme = filme['id']
