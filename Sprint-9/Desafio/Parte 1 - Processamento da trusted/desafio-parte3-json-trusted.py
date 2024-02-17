@@ -20,18 +20,7 @@ output_path =  args['S3_TARGET_PATH']
 json_file_path = args['S3_INPUT_PATH']
 
 
-schema = StructType([
-    StructField("genre_ids", ArrayType(IntegerType()), True),
-    StructField("id", IntegerType(), True),
-    StructField("original_title", StringType(), True),
-    StructField("popularity", DoubleType(), True),
-    StructField("release_date", StringType(), True),  # Change to StringType
-    StructField("title", StringType(), True),
-    StructField("vote_average", DoubleType(), True),
-    StructField("vote_count", IntegerType(), True),
-    StructField("budget", LongType(), True),
-    StructField("revenue", LongType(), True),
-])
+
 
 df_raw = glueContext.create_dynamic_frame.from_options(
     "s3",
