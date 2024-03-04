@@ -184,4 +184,17 @@ Durante a sétima sprint, focamos em consolidar nossos conhecimentos em Big Data
 
     - **Descrição do Desafio**:
         - Compreende a captura de dados existentes na API TMBD. Os dados coletados devem ser persistidos em Amazon S3 RAW Zone, mantendo o formato da origem (JSON), agrupando-os em arquivos 
-  
+
+
+### Sprint - 9 Desafio - Parte 3
+- **Desafio - Parte 3**:
+
+    - **Descrição do Desafio**:
+        - Criacao da camada trusted e refined para o consumo de dados na dashboard
+
+
+### Sprint - 10 Desafio - Final
+- **Desafio - Final**:
+
+    - **Descrição do Desafio**:
+        - Criacao da dashboard
