@@ -2,10 +2,9 @@
 ## Apresentação
 
 - **Nome**: Victor Hugo Cassiano da Silva
-- **Cidade de Residência**: Olinda/PE
-- **Instituição de Ensino**: UNINASSAU
-- **Curso**: Sistemas de Informação
-- **Semestre Atual**: 6º Semestre
+- **Cidade de Residência**: Barueri/SP
+- **Instituição de Ensino**: Univesp
+- **Curso**: Tecnologia da Informação
 - **Hobbies**: Jogos, Animes, Mangás e Programação
 
 ## Um pouco mais sobre mim
